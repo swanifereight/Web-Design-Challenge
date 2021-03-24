@@ -1,7 +1,29 @@
-.center {
-  	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 75%
-  	padding: padding:20px 15px 15px 20px;
-  	}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+@media only screen and (max-width: 800px){
+  body{
+    background-color: #80ced6;
+  }
+}
+
+
+
+body{
+  margin-bottom: 100px;
+  font-family: Helvetica;
+  background-color: #80ced6;
+}
+
+.navbar-custom{
+  background-color: #80ced6;;
+}
+
+#logo{
+  height: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 65px
+}
