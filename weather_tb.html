@@ -1,3 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Weather Dashboard</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="Resources/assets/css/style.css">
+
+  </head>
+
+  <body>
+   
+    <nav class="navbar navbar-default">
+      <div class="container-fluid navbar-custom">
+
+        
+        <div class="row">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle Navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="col-xs-9 phone-nav">
+              <a class="navbar-brand" href="index.html" id="logo">Latitude</a>
+            </div>
+          </div>
+
+        
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right navbar-right-custom">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                 <li><a href="../temp.html">Max Temperature</a></li>
+                  <li><a href="../humidity.html">Humidity</a></li>
+                  <li><a href="../cloudiness.html">Cloudiness</a></li>
+                  <li><a href="../wind.html">Wind Speed</a></li>
+                </ul>
+              </li>
+              <li><a href="compare.html">Comparison</a></li>
+              <li><a href="weather_tb.html">Data</a></li>
+            </ul>
+          </div>
+        </div>
+      </div><
+    </nav>
+ 
+
+    <div class="container">
+      <article class="description-content row">
+        <div class="col-xs-12">
+          <h1 class="description-header">Data</h1>
+          <hr class="description-hr"/>
+          <p class="description-text">The following table includes all of the data used for plotting during this project.</p>
+          <div class="table-responsive">
 <table border="1" class="dataframe table table-striped table-hover">
   <thead>
     <tr style="text-align: right;">
@@ -6580,3 +6643,26 @@
     </tr>
   </tbody>
 </table>
+ </div>
+        </div>
+      </article>
+    </div>
+    <!-- End of container -->
+
+    <!-- Start of footer -->
+    <footer class="footer navbar-fixed-bottom">
+      <div class="two-toned-footer-color"></div>
+      <p class="text-muted text-muted-footer text-center">
+         Christina Hawkins 2021
+      </p>
+    </footer>
+    <!-- End of footer -->
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
